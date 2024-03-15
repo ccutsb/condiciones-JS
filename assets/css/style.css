@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    overflow: scroll;
+    background-color: burlywood;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagenUno {
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stickers img {
+    height: 200px;
+}
+
+.pw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 12px;
+}
+
+.pw h3 {
+    padding: 1rem;
+}
+
+.selecting {
+    padding-bottom: 1rem;
+}
+
+.counting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.counting h3{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.imagenStickers{
+    width: 200px;
+}
+
+.stickers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .75rem;
+
+}
